@@ -21,6 +21,8 @@ Use promo code "MLQUESTIONS" at checkout to get 20% off your Premium subscriptio
 
 #### 1) What's the trade-off between bias and variance? [[src](http://houseofbots.com/news-detail/2849-4-data-science-and-machine-learning-interview-questions)]
 
+In machine learning, bias and variance are two types of errors that impact a model's ability to generalize to new, unseen data. Bias refers to the error introduced by approximating a real-world problem, which may be too complex, with a simpler model. High bias can lead to underfitting, where the model fails to capture the underlying patterns in the data. Variance, on the other hand, refers to the model's sensitivity to fluctuations in the training data. High variance can lead to overfitting, where the model learns the training data too well, including noise, and performs poorly on new data. 
+
 If our model is too simple and has very few parameters then it may have high bias and low variance. On the other hand if our model has large number of parameters then it’s going to have high variance and low bias. So we need to find the right/good balance without overfitting and underfitting the data. [[src]](https://towardsdatascience.com/understanding-the-bias-variance-tradeoff-165e6942b229)
 
 #### 2) What is gradient descent? [[src](http://houseofbots.com/news-detail/2849-4-data-science-and-machine-learning-interview-questions)]
